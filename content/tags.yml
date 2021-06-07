@@ -6,3 +6,7 @@
   color: "#007acc"
   icon: ./assets/images/os.png
   featured: true
+- name: FrontEnd
+  color: "#007acc"
+  icon: ./assets/images/fe.png
+  featured: true
