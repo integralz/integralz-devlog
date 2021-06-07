@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `nehalem-starter`,
-    siteUrl: `https://nehalem.netlify.com`,
-    description: `A Gatsby starter for nehalem`,
+    title: `integralz's DevBlog`,
+    siteUrl: `https://integralz-dev.netlify.app/`,
+    description: ``,
     topics: [],
     menu: [
       {
@@ -10,29 +10,28 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'Example',
+        name: 'Posts',
         path: '/page'
       },
     ],
     footerMenu: [
       {
-        name: 'Example',
+        name: 'Posts',
         path: '/page'
       },
     ],
     search: true,
     author: {
-      name: `nehalem`,
-      description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
-        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a 
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+      name: `integralz`,
+      description: `Hello! I'm <strong>integralz</strong>. If you like my blog
+        <a href="https://github.com/integralz" rel="noopener" target="_blank">follow my GitHub!</a>`,
       social: {
         facebook: ``,
-        twitter: `https://twitter.com/nehalist`,
-        linkedin: `https://www.linkedin.com/in/kevin-hirczy-7a9377106/`,
+        twitter: ``,
+        linkedin: ``,
         instagram: ``,
         youtube: ``,
-        github: `https://github.com/nehalist`,
+        github: `https://github.com/integralz`,
         twitch: ``
       }
     }
@@ -48,7 +47,7 @@ module.exports = {
           background_color: `#a4cbb8`,
           theme_color: `#a4cbb8`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/logo.png`
+          icon: `${__dirname}/content/assets/images/cinamonroll.png`
         }
       }
     }
