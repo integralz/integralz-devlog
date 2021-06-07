@@ -2,3 +2,7 @@
   color: "#007acc"
   icon: ./assets/images/opengl_tag.png
   featured: true
+- name: OS
+  color: "#007acc"
+  icon: ./assets/images/os.png
+  featured: true
