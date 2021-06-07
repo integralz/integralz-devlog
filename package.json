@@ -20,6 +20,7 @@
     "@nehalist/gatsby-theme-nehalem": "^1.0.3",
     "gatsby": "^2.13.55",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "yarn": "^1.22.10"
   }
 }
