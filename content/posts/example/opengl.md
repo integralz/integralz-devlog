@@ -3,9 +3,9 @@ title: "OpenGL이란?"
 path: "/OpenGL"
 tags: ["OpenGL"]
 featuredImage: "../image/Opengl-logo.png"
-excerpt: opengl
+excerpt: ''
 created: 2021-06-07
-updated: 2019-06-07
+updated: 2021-06-07
 ---
 
 ## 그래픽 라이브러리
