@@ -2,7 +2,7 @@
 title: "OpenGL이란?"
 path: "/OpenGL"
 tags: ["OpenGL"]
-featuredImage: "../image/Opengl-logo.png"
+featuredImage: "../image/main_image/Opengl-logo.png"
 excerpt: ''
 created: 2021-06-07
 updated: 2021-06-07

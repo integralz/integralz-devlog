@@ -2,7 +2,7 @@
 title: "macOS에서의 OpenGL 개발환경 구축"
 path: "/OpenGL_environment"
 tags: ["OpenGL"]
-featuredImage: "../image/Opengl-logo.png"
+featuredImage: "../image/main_image/Opengl-logo.png"
 excerpt: ''
 created: 2021-06-08
 updated: 2021-06-08
@@ -53,7 +53,7 @@ macOS에는 OpenGL 라이브러리가 이미 존재한다. 이에 대해서는 �
 
     를 추가한다.        
     ![세팅4](../image/OpenGL_environment/4.png)
-    프로젝트 설정 General란에서 Frameworks and Libraries항목에 GLFW, GLEW, OpenGL을 추가한다.(위의 그림처럼 GLFW, GLEW의 .dylib 파일을 추가하여야 한다. 파일 경로 검색을 통해 /usr/local/Cellar/에서 GLFW, GLEW의 폴더에서 찾으면 수월할 것이다.)
+    프로젝트 설정 General란에서 Frameworks and Libraries항목에 GLFW, GLEW, OpenGL framework를 추가한다.(위의 그림처럼 GLFW, GLEW의 .dylib 파일을 추가하여야 한다. 파일 경로 검색을 통해 /usr/local/Cellar/에서 GLFW, GLEW의 폴더에서 찾으면 수월할 것이다.)
 
 
 4. 실험 코드
