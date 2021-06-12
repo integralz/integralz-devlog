@@ -33,7 +33,7 @@ AR과 관련된 네이티브 애플리케이션을 개발 하려면 ios에서는
 
 4. Project Settings
 
-    ![package manager](../image/ar_foundation_environment/4.png)
+    ![project setting](../image/ar_foundation_environment/4.png)
     Edit -> Project Setting를 클릭 후, 하단 XR Plug-in Management에서 ios, android 란에서 각각 ARKit, ARCore를 활성화 시킨다. 첨언을 하자면, XR Plug-in Management 밑에 있는 ARCore와 ARKit에서 Requirement에서 필수적으로 사용을 할 것인지, 선택적으로 사용을 할 것인지를 정할 수 있다.
 
     
