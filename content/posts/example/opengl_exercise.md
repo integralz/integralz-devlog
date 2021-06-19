@@ -13,5 +13,3 @@ updated: 2021-06-14
 
 ## 해답
 이에 대한 해답은 [https://github.com/integralz/technique/tree/main/OpenGL](https://github.com/integralz/technique/tree/main/OpenGL)에 올릴 예정이다. 학습을 하면서 계속해서 최신화를 할 예정이다.
-
-
