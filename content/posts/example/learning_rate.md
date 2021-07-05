@@ -1,5 +1,5 @@
 ---
-title: "Learning rate, P"
+title: "Learning rate"
 path: "/learning_rate"
 tags: ["Machine Learning"]
 featuredImage: "../image/main_image/ml.jpeg"
