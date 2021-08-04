@@ -31,15 +31,11 @@ primitive assembly 단계를 통해 생성된 primitive는 geometry shader로 �
 
 ### Rasterization
 
-rasteriation 단게에서는 위의 과정에서 나온 최종 primitive들을 우리가 볼 화면에서의 픽셀에 mapping하는 과정이다. 각 vertex에 대한 pixel 맵핑 뿐만이 아니라 그 사이의 공간에 대해서도 pixel로의 맵핑이 일어난다. 픽셀은 연속적이지 않고 이산적인 구조를 가지고 있으므로 이를 표현하기 위해서 보간 과정을 거치게 된다. 그리고 fragment를 생성한다. 그리고 clipping를 통해 우리가 실질적으로 볼 화면에 대한 fragment만 선별한다.
+rasteriation 단게에서는 위의 과정에서 나온 최종 primitive들을 우리가 볼 화면에서의 픽셀에 mapping하는 과정이다. 각 vertex에 대한 pixel 맵핑 뿐만이 아니라 그 사이의 공간에 대해서도 pixel로의 맵핑이 일어난다. 픽셀은 연속적이지 않고 이산적인 구조를 가지고 있으므로 이를 표현하기 위해서 보간 과정을 거치게 된다. 그리고 fragment를 생성한다.
 
 * fragment란?
 
     fragment는 화면의 픽셀에 대해서 어떻게 표현할지를 나타내는 데이터이다. rgba와 같은 데이터가 fragment에 속해있는 것이다.
-
-* clipping란?
-
-    우리는 camera를 통해서 화면을 통해 볼 범위를 규정한다. 만약 어떤 fragment가 camera 범위에 들어오지 않는데, 이에 대해서 계산을 진행한다면, 이는 무쓸모한 작업일 것이다. 그리고 이러한 무쓸모한 작업은 rendering에서의 속도적인 측면에 직결이 된다. 그러므로 clipping를 통하여 우리에게 필요한 fragment(카메라의 범위에 들어온 fragment)만 골라 작업을 진행하는 것이다.
 
 ### Fragment Shader
 
